@@ -523,7 +523,7 @@ model_header += `<th class="col-scenario" colspan="2">SingleStream</th>`;
 
     let a_num = mydata[rid]['a#'] || '';
     let acc = a_num === '' ? "" : `${mydata[rid].Accelerator} x ${parseInt(a_num)}`;
-    let system_json_link = mydata[rid].Details.replace("/results/", "/systems/").replace("submissions_automotive_0.5", "inference_automotive_v0.5") + ".json";
+    // let system_json_link = mydata[rid].Details.replace("/results/", "/systems/").replace("submissions_automotive_0.5", "inference_automotive_v0.5") + ".json";
     let system_info_link = mydata[rid].Details.replace("/results/", "/measurements/") + "/system_info.txt";
     html += `
       <tr>
@@ -696,7 +696,7 @@ function constructTable(category, division, with_power, availability, data) {
 
     let a_num = mydata[rid]['a#'] || '';
     let acc = a_num === '' ? "" : `${mydata[rid].Accelerator} x ${parseInt(a_num)}`;
-    let system_json_link = mydata[rid].Details.replace("results/", "systems/").replace("submissions_automotive_0.5", "inference_automotive_v0.5") + ".json";
+    // let system_json_link = mydata[rid].Details.replace("results/", "systems/").replace("submissions_automotive_0.5", "inference_automotive_v0.5") + ".json";
     let system_summary_link = "https://htmlpreview.github.io/?"+ mydata[rid].Details.replace("tree/", "blob/") +  "/summary.html";
     html += `
       <tr>
