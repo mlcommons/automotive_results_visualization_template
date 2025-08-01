@@ -21,6 +21,8 @@ echo "repo name: ${repo_name}"
 ver_num=$(cat dbversion)
 let ver_num++
 
+echo "$ver_num" > dbversion
+
 rm -f docs/javascripts/config.js
 
 if [ ! -e docs/javascripts/config.js ]; then
