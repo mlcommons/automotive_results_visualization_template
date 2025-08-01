@@ -31,7 +31,7 @@ hide:
         <div class="form-field">
             <label for="category">Category</label>
             <select id="category" name="category" class="col myFilter">
-                <option value='adas' >Datacenter</option>
+                <option value='adas' >adas</option>
 
             </select>
         </div>
