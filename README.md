@@ -1,12 +1,12 @@
 # MLPerf Inference Visualization Template
 
-If you have a [run](https://raw.githubusercontent.com/GATEOverflow/inference_results_v4.1/main/run.sh) script, just run that in the root of your MLPerf inference_results repository.
+If you have a [run]()TBD script, just run that in the root of your MLPerf automotive_results repository.
 
 ```
-INFERENCE_RESULTS_REPO_OWNER=${{ github.repository_owner }} bash run.sh
+AUTOMOTIVE_RESULTS_REPO_OWNER=${{ github.repository_owner }} bash run.sh
 ```
 
-This will copy the template code including CSS/HTML overrides and the JS files from this template repository to the docs site of the inference results repository.
+This will copy the template code including CSS/HTML overrides and the JS files from this template repository to the docs site of the automotive results repository.
 
 Here’s a more refined version of your documentation. It improves the structure and clarity, making it easier for someone to follow, understand, and maintain the project.
 
@@ -54,7 +54,7 @@ This repository handles the results and comparison pages for machine learning in
 ### Repository Workflow
 
 1. **GitHub Actions Integration**:  
-   This repository is designed to be cloned via GitHub Actions in the **inference_results** repositories. The cloning process is handled by a **GitHub Actions** workflow, as outlined in the [publish.yml](https://github.com/mlcommons/mlperf_inference_submissions/blob/main/.github/workflows/publish.yml) file.
+   This repository is designed to be cloned via GitHub Actions in the **automotive_results** repositories. The cloning process is handled by a **GitHub Actions** workflow, as outlined in the [publish.yml](https://github.com/mlcommons/mlperf_automotve_submissions/blob/main/.github/workflows/publish.yml) file.
 
 2. **Dynamic Content Generation**:  
    - The **Compare** pages is rendered entirely via JavaScript.
