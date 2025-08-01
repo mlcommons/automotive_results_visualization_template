@@ -31,8 +31,7 @@ hide:
         <div class="form-field">
             <label for="category">Category</label>
             <select id="category" name="category" class="col myFilter">
-                <option value='datacenter' >Datacenter</option>
-<option value='edge' >Edge</option>
+                <option value='adas' >adas</option>
 
             </select>
         </div>
@@ -50,9 +49,10 @@ hide:
             <label for="availability">Availability</label>
             <select id="availability" name="availability" class="col myFilter">
                 <option value='all' selected>All</option>
-                <option value='available'>Available</option>
-                <option value='preview' >Preview</option>
-                <option value='rdi' >RDI</option>
+                <option value='hardened'>hardened</option>
+                <option value='development' >development</option>
+                <option value='engineering_samples' >engineering_samples</option>
+                <option value='presilicon' >presilicon</option>
             </select>
         </div>
 
@@ -65,10 +65,8 @@ hide:
         <div class="form-field">
             <label for="scenario">Scenario</label>
             <select id="scenario" name="scenario" class="col">
-                <option value='Offline' selected>Offline</option>
-                <option value='Server'>Server</option>
-                <option value='SingleStream'>SingleStream</option>
-                <option value='MultiStream'>MultiStream</option>
+                <option value='SingleStream' selected>SingleStream</option>
+                <option value='ConstantStream'>ConstantStream</option>
             </select>
         </div>
 
